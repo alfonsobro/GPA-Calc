@@ -4,6 +4,12 @@ require 'rubygems'
 require 'oauth'
 require 'json'
 
+consumer_key = OAuth::Consumer.new(
+    "*insert Consumer key*")
+access_token = OAuth::Token.new(
+    "* insert access token*")
+    
+
 # Now you will fetch /1.1/statuses/user_timeline.json,
 # returns a list of public Tweets from the specified
 # account.
